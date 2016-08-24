@@ -14,6 +14,12 @@
 		EA732B071D6A9CED00FA5CE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA732B051D6A9CED00FA5CE7 /* LaunchScreen.storyboard */; };
 		EA732B121D6A9CED00FA5CE7 /* PizzaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA732B111D6A9CED00FA5CE7 /* PizzaAppTests.swift */; };
 		EA732B1D1D6A9CED00FA5CE7 /* PizzaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA732B1C1D6A9CED00FA5CE7 /* PizzaAppUITests.swift */; };
+		EA732B2B1D6BFDF000FA5CE7 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA732B2A1D6BFDF000FA5CE7 /* Pizza.swift */; };
+		EA732B2D1D6C068400FA5CE7 /* Paso2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA732B2C1D6C068400FA5CE7 /* Paso2.swift */; };
+		EA732B2F1D6C06B000FA5CE7 /* Paso3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA732B2E1D6C06B000FA5CE7 /* Paso3.swift */; };
+		EA732B311D6C06C600FA5CE7 /* Paso4.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA732B301D6C06C600FA5CE7 /* Paso4.swift */; };
+		EA732B331D6C06F900FA5CE7 /* Confirmacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA732B321D6C06F900FA5CE7 /* Confirmacion.swift */; };
+		EA732B351D6C070E00FA5CE7 /* Final.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA732B341D6C070E00FA5CE7 /* Final.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		EA732B181D6A9CED00FA5CE7 /* PizzaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA732B1C1D6A9CED00FA5CE7 /* PizzaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaAppUITests.swift; sourceTree = "<group>"; };
 		EA732B1E1D6A9CED00FA5CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA732B2A1D6BFDF000FA5CE7 /* Pizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		EA732B2C1D6C068400FA5CE7 /* Paso2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paso2.swift; sourceTree = "<group>"; };
+		EA732B2E1D6C06B000FA5CE7 /* Paso3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paso3.swift; sourceTree = "<group>"; };
+		EA732B301D6C06C600FA5CE7 /* Paso4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paso4.swift; sourceTree = "<group>"; };
+		EA732B321D6C06F900FA5CE7 /* Confirmacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Confirmacion.swift; sourceTree = "<group>"; };
+		EA732B341D6C070E00FA5CE7 /* Final.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Final.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +110,17 @@
 			isa = PBXGroup;
 			children = (
 				EA732AFC1D6A9CED00FA5CE7 /* AppDelegate.swift */,
-				EA732AFE1D6A9CED00FA5CE7 /* ViewController.swift */,
 				EA732B001D6A9CED00FA5CE7 /* Main.storyboard */,
 				EA732B031D6A9CED00FA5CE7 /* Assets.xcassets */,
 				EA732B051D6A9CED00FA5CE7 /* LaunchScreen.storyboard */,
 				EA732B081D6A9CED00FA5CE7 /* Info.plist */,
+				EA732B2A1D6BFDF000FA5CE7 /* Pizza.swift */,
+				EA732AFE1D6A9CED00FA5CE7 /* ViewController.swift */,
+				EA732B2C1D6C068400FA5CE7 /* Paso2.swift */,
+				EA732B2E1D6C06B000FA5CE7 /* Paso3.swift */,
+				EA732B301D6C06C600FA5CE7 /* Paso4.swift */,
+				EA732B321D6C06F900FA5CE7 /* Confirmacion.swift */,
+				EA732B341D6C070E00FA5CE7 /* Final.swift */,
 			);
 			path = PizzaApp;
 			sourceTree = "<group>";
@@ -256,8 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA732B351D6C070E00FA5CE7 /* Final.swift in Sources */,
+				EA732B2D1D6C068400FA5CE7 /* Paso2.swift in Sources */,
+				EA732B311D6C06C600FA5CE7 /* Paso4.swift in Sources */,
+				EA732B2F1D6C06B000FA5CE7 /* Paso3.swift in Sources */,
+				EA732B331D6C06F900FA5CE7 /* Confirmacion.swift in Sources */,
 				EA732AFF1D6A9CED00FA5CE7 /* ViewController.swift in Sources */,
 				EA732AFD1D6A9CED00FA5CE7 /* AppDelegate.swift in Sources */,
+				EA732B2B1D6BFDF000FA5CE7 /* Pizza.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
